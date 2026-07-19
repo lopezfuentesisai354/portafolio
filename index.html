@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Isaí López Fuentes — Desarrollador Full Stack</title>
+<meta name="description" content="Portafolio de Isaí López Fuentes, desarrollador de software full stack: APIs, bases de datos y aplicaciones móviles.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-mark">isai<span>.dev</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#perfil">Perfil</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#contacto" class="nav-cta">Contacto</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <p class="status-pill"><span class="dot"></span>DISPONIBLE PARA NUEVOS PROYECTOS</p>
+        <h1 class="hero-title">Isaí López<br>Fuentes</h1>
+        <p class="hero-role">Desarrollador de Software Full&nbsp;Stack</p>
+        <p class="hero-tagline">
+          Diseño arquitecturas lógicas, APIs y bases de datos que sostienen productos reales.
+          Análisis exhaustivo primero, código después — desde plataformas escolares hasta
+          aplicaciones de salud mental respaldadas por investigación publicada.
+        </p>
+        <div class="hero-actions">
+          <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+          <a href="assets/Isai_Lopez_CV.pdf" class="btn btn-ghost" download>Descargar CV ↓</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/isaí-lópez-806b6339b" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:lopezfuentesisai354@outlook.com">Email</a>
+          <a href="tel:+522712070191">+52 271 207 01 91</a>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <div class="hero-photo">
+          <img src="assets/profile/isai.png" alt="Isaí López Fuentes">
+        </div>
+        <div class="hero-stat-card">
+          <span class="stat-num">4</span>
+          <span class="stat-label">Proyectos<br>full stack</span>
+        </div>
+        <div class="hero-stat-card hero-stat-alt">
+          <span class="stat-num">1</span>
+          <span class="stat-label">Publicación<br>CEIAAIT · UNAM</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PERFIL -->
+  <section class="section" id="perfil">
+    <div class="section-inner">
+      <p class="section-tag">01 / Perfil</p>
+      <p class="lead">
+        Desarrollador de software con una profunda pasión por la creación y una marcada capacidad
+        analítica. Mi enfoque no se limita a escribir código, sino a comprender a fondo la raíz de
+        cada desafío: la solución más precisa nace de un análisis exhaustivo y una planificación
+        meticulosa que busque siempre la excelencia técnica.
+      </p>
+      <p class="lead lead-dim">
+        Entiendo la tecnología como una herramienta para las personas — desarrollo con empatía,
+        priorizando soluciones que impacten de forma positiva en el usuario final.
+      </p>
+
+      <div class="skills-row">
+        <div class="skill-block">
+          <span class="skill-label">Backend</span>
+          <p>Java · C# .NET Core · Python · Kotlin</p>
+        </div>
+        <div class="skill-block">
+          <span class="skill-label">Frontend & Móvil</span>
+          <p>Flutter · Angular / React · JavaScript</p>
+        </div>
+        <div class="skill-block">
+          <span class="skill-label">Datos</span>
+          <p>SQL Server · PostgreSQL · NoSQL</p>
+        </div>
+        <div class="skill-block">
+          <span class="skill-label">Prácticas</span>
+          <p>Git · Azure DevOps · Gestión de proyectos</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section class="section section-alt" id="proyectos">
+    <div class="section-inner">
+      <p class="section-tag">02 / Proyectos</p>
+      <h2 class="section-title">Cuatro sistemas, cuatro problemas reales.</h2>
+
+      <!-- e-Study: featured project with phone gallery -->
+      <article class="project project-featured">
+        <div class="project-head">
+          <div>
+            <span class="project-kind">Estadía profesional · Ene–Mar 2026</span>
+            <h3>Sistema Integral e-Study</h3>
+            <p class="project-desc">
+              Sistema escolar integral para viabilizar la expansión de programas universitarios
+              en línea: control de acceso por roles (alumno, docente, administrativo), clases
+              virtuales integradas con Jitsi Meet, calificaciones, control escolar y generación
+              automática de matrículas — con arquitectura preparada para alta concurrencia.
+            </p>
+            <div class="tags">
+              <span>Flutter</span><span>ASP.NET Core</span><span>C#</span><span>Entity Framework</span><span>SQL Server</span><span>Jitsi Meet</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="phone-gallery">
+          <figure class="phone-frame">
+            <img src="assets/estudy/login.png" alt="Pantalla de inicio de sesión de e-Study">
+            <figcaption>Inicio de sesión</figcaption>
+          </figure>
+          <figure class="phone-frame">
+            <img src="assets/estudy/panel-alumno.png" alt="Panel principal del alumno en e-Study">
+            <figcaption>Panel del alumno</figcaption>
+          </figure>
+          <figure class="phone-frame">
+            <img src="assets/estudy/panel-docente.png" alt="Panel principal del docente en e-Study">
+            <figcaption>Panel del docente</figcaption>
+          </figure>
+          <figure class="phone-frame">
+            <img src="assets/estudy/panel-administrativo.png" alt="Panel administrativo en e-Study">
+            <figcaption>Panel administrativo</figcaption>
+          </figure>
+          <figure class="phone-frame">
+            <img src="assets/estudy/calificaciones.png" alt="Interfaz de calificaciones en e-Study">
+            <figcaption>Calificaciones</figcaption>
+          </figure>
+          <figure class="phone-frame">
+            <img src="assets/estudy/clases-virtuales.png" alt="Interfaz de clases en línea en e-Study">
+            <figcaption>Clases en línea</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <div class="project-grid">
+
+        <!-- Automatización de Procesos -->
+        <article class="project project-card">
+          <span class="project-kind">Proyecto independiente · Abr 2026 — Actualidad</span>
+          <h3>Afiliados DOO</h3>
+          <p class="project-desc">
+            Sitio del programa de afiliados de una agencia SEO: registro de afiliados, enlaces
+            únicos de referido, escalado de comisiones (5%→20%) y pagos vía SPEI. Diseñado para
+            automatizar procesos internos que antes eran manuales.
+          </p>
+          <div class="stat-strip">
+            <div><strong>20%</strong><span>Comisión máx.</span></div>
+            <div><strong>5 días</strong><span>Pago SPEI</span></div>
+            <div><strong>$0</strong><span>Costo registro</span></div>
+          </div>
+          <div class="tags">
+            <span>Automatización de procesos</span><span>Landing page</span><span>Sistema de referidos</span>
+          </div>
+          <a href="https://afiliados.optimizacion-online.com/" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Visitar sitio ↗</a>
+        </article>
+
+        <!-- VITAEDU -->
+        <article class="project project-card">
+          <span class="project-kind">Escuela Práctica · Sep 2024 — Dic 2025</span>
+          <h3>VITAEDU</h3>
+          <p class="project-desc">
+            App para la gestión del estrés académico mediante IA. Lideré la base de datos,
+            la selección de instrumentos de medición y el diseño UI/UX. El proyecto derivó en
+            un artículo publicado como autor principal en el congreso CEIAAIT (UNAM).
+          </p>
+          <div class="stat-strip">
+            <div><strong>93%</strong><span>Precisión</span></div>
+            <div><strong>97%</strong><span>Recall</span></div>
+            <div><strong>97.8%</strong><span>AUC</span></div>
+          </div>
+          <div class="tags">
+            <span>XGBoost</span><span>UI/UX</span><span>Investigación</span>
+          </div>
+          <a href="https://virtual.cuautitlan.unam.mx/intar/memoriasceiaait/wp-content/uploads/sites/19/2025/12/95-Articulo-VitaEdu.2-LUIS-ROLANDO-GUARNEROS-NOLASCO.pdf" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Leer artículo ↗</a>
+        </article>
+
+        <!-- Agrocor -->
+        <article class="project project-card project-card-plain">
+          <span class="project-kind">Escuela Práctica · Nov 2022 — Ene 2024</span>
+          <h3>Agrocor</h3>
+          <p class="project-desc">
+            Arquitectura lógica y gestión de datos para un sistema de punto de venta, sitio web
+            y aplicación móvil. Bases de datos robustas para inventario en tiempo real y APIs
+            para el flujo de compras y autenticación, con endpoints optimizados para respuestas
+            ágiles en dispositivos móviles.
+          </p>
+          <div class="tags">
+            <span>Punto de venta</span><span>API REST</span><span>Inventario en tiempo real</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCIA -->
+  <section class="section" id="experiencia">
+    <div class="section-inner">
+      <p class="section-tag">03 / Experiencia</p>
+
+      <div class="timeline">
+        <article class="tl-item">
+          <div class="tl-marker">2026</div>
+          <div class="tl-content">
+            <div class="tl-head">
+              <h3>Automatización de Procesos: Diseño y Optimización Online</h3>
+              <span class="tl-date">Abril 2026 — Actualidad</span>
+            </div>
+            <p>Plataforma digital de afiliados y automatización de procesos internos, reduciendo tiempos operativos y errores humanos.</p>
+          </div>
+        </article>
+        <article class="tl-item">
+          <div class="tl-marker">2026</div>
+          <div class="tl-content">
+            <div class="tl-head">
+              <h3>Sistema Integral para Universidad en Línea: e-Study</h3>
+              <span class="tl-date">Enero — Marzo 2026</span>
+            </div>
+            <p>Ciclo completo de desarrollo Full Stack: API REST, app móvil, control de acceso por roles y automatización de procesos escolares.</p>
+          </div>
+        </article>
+        <article class="tl-item">
+          <div class="tl-marker">24–25</div>
+          <div class="tl-content">
+            <div class="tl-head">
+              <h3>VITAEDU — Escuela Práctica</h3>
+              <span class="tl-date">Septiembre 2024 — Diciembre 2025</span>
+            </div>
+            <p>Base de datos, investigación de instrumentos de medición de estrés y diseño UI/UX de la aplicación.</p>
+          </div>
+        </article>
+        <article class="tl-item">
+          <div class="tl-marker">22–24</div>
+          <div class="tl-content">
+            <div class="tl-head">
+              <h3>Agrocor — Escuela Práctica</h3>
+              <span class="tl-date">Noviembre 2022 — Enero 2024</span>
+            </div>
+            <p>Arquitectura lógica y gestión de datos para punto de venta, sitio web y aplicación móvil.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="edu-row">
+        <div class="edu-card">
+          <h4>Ingeniería en Desarrollo y Gestión de Software</h4>
+          <p>Universidad Tecnológica del Centro de Veracruz</p>
+          <span>2024 – 2026</span>
+        </div>
+        <div class="edu-card">
+          <h4>TSU en Tecnologías de la Información — Desarrollo de Software Multiplataforma</h4>
+          <p>Universidad Tecnológica del Centro de Veracruz</p>
+          <span>2022 – 2024</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section contact" id="contacto">
+    <div class="section-inner">
+      <p class="section-tag">04 / Contacto</p>
+      <h2 class="contact-title">Hablemos de tu próximo proyecto.</h2>
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:lopezfuentesisai354@outlook.com">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">lopezfuentesisai354@outlook.com</span>
+        </a>
+        <a class="contact-card" href="tel:+522712070191">
+          <span class="contact-label">Teléfono</span>
+          <span class="contact-value">+52 271 207 01 91</span>
+        </a>
+        <a class="contact-card" href="https://www.linkedin.com/in/isaí-lópez-806b6339b" target="_blank" rel="noopener">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">in/isaí-lópez-806b6339b</span>
+        </a>
+        <div class="contact-card contact-card-static">
+          <span class="contact-label">Ubicación</span>
+          <span class="contact-value">Córdoba, Veracruz, México</span>
+        </div>
+      </div>
+      <a href="assets/Isai_Lopez_CV.docx" class="btn btn-primary btn-cv" download>Descargar CV completo ↓</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Isaí López Fuentes</span>
+  <span class="footer-mono">build: estático · sin frameworks</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
